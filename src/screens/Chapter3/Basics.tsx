@@ -12,7 +12,7 @@ import {
 
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
-import * as D from '../data';
+import * as D from '../../data';
 
 import {Colors} from 'react-native-paper';
 
@@ -24,7 +24,7 @@ const handleIconPress = () => {
   console.log('icon pressed');
 };
 
-const Chapter3 = () => (
+const Basics = () => (
   <SafeAreaView style={[styles.safeAreaView]}>
     <Text style={[styles.text, fontStyles.regular]}>os: {Platform.OS}</Text>
     <Text style={[styles.text, fontStyles.bold]}>width: {width}px</Text>
@@ -94,4 +94,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Chapter3;
+export default Basics;
