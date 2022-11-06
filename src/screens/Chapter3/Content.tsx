@@ -6,8 +6,6 @@ type Props = {};
 
 const avatarUrls = [...new Array(200)].map(_ => randomAvatarUrl());
 
-console.log('avatarUrls:', avatarUrls);
-
 const Content = (_props: Props) => {
   return (
     <ScrollView contentContainerStyle={styles.view}>
