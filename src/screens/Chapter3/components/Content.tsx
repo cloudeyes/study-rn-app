@@ -1,6 +1,6 @@
 import React from 'react';
 import {Image, ScrollView, StyleSheet} from 'react-native';
-import {randomAvatarUrl} from '../../data';
+import {randomAvatarUrl} from '../../../data';
 
 type Props = {};
 

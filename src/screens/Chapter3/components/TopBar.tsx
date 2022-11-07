@@ -2,7 +2,7 @@ import React from 'react';
 import {Image, StyleSheet, Text, View} from 'react-native';
 import {Colors} from 'react-native-paper';
 import Icon from 'react-native-vector-icons/MaterialIcons';
-import {randomAvatarUrl} from '../../data';
+import {randomAvatarUrl} from '../../../data';
 
 type Props = {};
 

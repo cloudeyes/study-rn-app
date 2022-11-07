@@ -1,10 +1,10 @@
 import React from 'react';
 import {SafeAreaView, StyleSheet} from 'react-native';
 import {Colors} from 'react-native-paper';
-import BottomBar from './BottomBar';
-import Content from './Content';
-import FabButton from './FabButton';
-import TopBar from './TopBar';
+import BottomBar from './components/BottomBar';
+import Content from './components/Content';
+import FabButton from './components/FabButton';
+import TopBar from './components/TopBar';
 
 type LayoutProps = {};
 
