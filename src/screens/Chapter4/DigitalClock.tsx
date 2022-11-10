@@ -1,18 +1,10 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import {SafeAreaView, StyleSheet, Text} from 'react-native';
 import {Colors} from 'react-native-paper';
+import {useClock} from './hooks/useClock';
 
 const DigitalClock = () => {
-  const [time, setTime] = useState<Date>(new Date());
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setTime(new Date());
-    }, 1000);
-
-    return () => {
-      clearInterval(intervalId);
-    };
-  }, []);
+  const time = useClock();
 
   return (
     <SafeAreaView style={styles.view}>

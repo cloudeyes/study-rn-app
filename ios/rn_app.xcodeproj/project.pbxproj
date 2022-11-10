@@ -28,7 +28,7 @@
 		6144077B2917E6A900ABD1BB /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6144076B2917E6A900ABD1BB /* EvilIcons.ttf */; };
 		6144077C2917E6A900ABD1BB /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6144076C2917E6A900ABD1BB /* SimpleLineIcons.ttf */; };
 		6144077D2917E6A900ABD1BB /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6144076D2917E6A900ABD1BB /* MaterialIcons.ttf */; };
-		61B5FDD8291BFEC900579E25 /* LCD.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61B5FDD7291BFEC900579E25 /* LCD.ttf */; };
+		61B5FDDC291D43A000579E25 /* LCD.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61B5FDDB291D435A00579E25 /* LCD.ttf */; };
 		7335161E4BE34804AC75289D /* DancingScript-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23762A5F70BC484FB0DC813B /* DancingScript-SemiBold.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-rn_app-rn_appTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-rn_app-rn_appTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -81,7 +81,7 @@
 		6144076B2917E6A900ABD1BB /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
 		6144076C2917E6A900ABD1BB /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
 		6144076D2917E6A900ABD1BB /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
-		61B5FDD7291BFEC900579E25 /* LCD.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = LCD.ttf; path = ../../../../../../../../../Downloads/LCD.ttf; sourceTree = "<group>"; };
+		61B5FDDB291D435A00579E25 /* LCD.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = LCD.ttf; path = ../src/assets/fonts/LCD.ttf; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = rn_app/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-rn_app-rn_appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rn_app-rn_appTests.release.xcconfig"; path = "Target Support Files/Pods-rn_app-rn_appTests/Pods-rn_app-rn_appTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -152,7 +152,6 @@
 		6144075D2917E6A900ABD1BB /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				61B5FDD7291BFEC900579E25 /* LCD.ttf */,
 				6144075E2917E6A900ABD1BB /* Fontisto.ttf */,
 				6144075F2917E6A900ABD1BB /* Octicons.ttf */,
 				614407602917E6A900ABD1BB /* Feather.ttf */,
@@ -220,6 +219,7 @@
 		BDAD66222E4D471CBAE333E9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				61B5FDDB291D435A00579E25 /* LCD.ttf */,
 				503CADD9C3A2403599227856 /* DancingScript-Bold.ttf */,
 				EF42D24BDF0A4E639E0F6162 /* DancingScript-Medium.ttf */,
 				3C99067FF5AE4CC19C91D6C7 /* DancingScript-Regular.ttf */,
@@ -324,7 +324,7 @@
 			files = (
 				614407742917E6A900ABD1BB /* AntDesign.ttf in Resources */,
 				614407752917E6A900ABD1BB /* Foundation.ttf in Resources */,
-				61B5FDD8291BFEC900579E25 /* LCD.ttf in Resources */,
+				61B5FDDC291D43A000579E25 /* LCD.ttf in Resources */,
 				6144077A2917E6A900ABD1BB /* Zocial.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,

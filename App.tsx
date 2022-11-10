@@ -1,10 +1,11 @@
 import React from 'react';
-//import Chapter3Layout from './src/screens/Chapter3/Layout';
-//import Chapter3Reuse from './src/screens/Chapter3/Reuse';
-import Chapter4Clock from './src/screens/Chapter4/DigitalClock';
+//import Chapter3 from './src/screens/Chapter3/Layout';
+//import Chapter3 from './src/screens/Chapter3/Reuse';
+//import Chapter4 from './src/screens/Chapter4/DigitalClock';
+import Chapter4 from './src/screens/Chapter4/MemoCallback';
 
 const App = () => {
-  return <Chapter4Clock />;
+  return <Chapter4 />;
 };
 
 export default App;
