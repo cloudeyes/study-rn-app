@@ -7,7 +7,7 @@ import Person from './components/Person';
 
 type Props = {};
 
-const people = [...new Array(10)].map(_ => createRandomPerson());
+const people = [...new Array(10)].map(createRandomPerson);
 
 const Reuse = (_props: Props) => {
   return (
